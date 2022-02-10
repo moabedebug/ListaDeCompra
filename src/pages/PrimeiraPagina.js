@@ -10,7 +10,7 @@ import ListDivider from "../Components/ListDivider";
 export default function PrimeiraPagina(){
     return(
         <Fragment>
-            <Header/>
+            <Header text=""/>
             <View style={styles.container}>
                 <View style={styles.subContainer}>
                     <Text style={styles.text}>Produto</Text>
@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
     },
     FlatList:{
         backgroundColor: "#F0EFEB",
-        width: 370,
-        height: 400,
+        width: "90%",
+        height: "65%",
         marginTop: 20,
         marginLeft: 20,
         borderRadius: 20

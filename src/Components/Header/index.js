@@ -5,7 +5,7 @@ import styles from "./style"
 export default function Header() {
     return(
         <View style={styles.boxTitle}>
-            <Text style={styles.textTitle}>Lista De Compra</Text>
+            <Text style={styles.textTitle}>Lista de Compra</Text>
         </View>
     )
 }
